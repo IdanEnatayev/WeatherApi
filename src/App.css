@@ -1,0 +1,289 @@
+/* Default styles for all screen sizes */
+body {
+  background-image: url("images/SeaofClouds.png");
+  padding: 0px;
+  text-align: center;
+  align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+#h1Title {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+
+
+}
+
+label {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+
+}
+
+
+
+#buttonsDiv {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.item {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  color: black;
+  background-color: mintcream;
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border: coral outset 4px;
+  display: flex;
+  width: 120px;
+  height: 70px;
+  opacity: 0.7;
+  margin: 10px;
+  border-radius: 30px;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.item:hover {
+  font-weight: bolder;
+  opacity: 1.7;
+
+}
+
+a:link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+input {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  width: 250px;
+
+}
+
+#buttonsSearchDiv {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#buttonSearch {
+  background-color: coral;
+  width: 110px;
+  height: 40px;
+  border: 2px outset #987654;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  color: white;
+  text-shadow: black 1px -1px;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  opacity: 0.8;
+  margin: 10px;
+  border-radius: 30px;
+  padding: 0px;
+  margin-left: 16px;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 2px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+#buttonSearch:hover {
+  font-weight: bolder;
+  opacity: 1.8;
+
+}
+
+#buttonsfavoriteDiv {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.buttonAddfavorite {
+  background-color: springgreen;
+  width: 219px;
+  height: 33px;
+  font-size: 15px;
+  border: 2px outset #987654;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  color: white;
+  text-shadow: black 1px -1px;
+  text-align: center;
+  font-style: italic;
+  opacity: 0.8;
+  margin: 10px;
+  border-radius: 30px;
+  padding: 0px;
+  margin-left: 16px;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 2px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.buttonRemovefavorite {
+  background-color: crimson;
+  width: 219px;
+  height: 33px;
+  font-size: 15px;
+  border: 2px outset #987654;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  color: white;
+  text-shadow: black 1px -1px;
+  text-align: center;
+  font-style: italic;
+  opacity: 0.8;
+  margin: 10px;
+  border-radius: 30px;
+  padding: 0px;
+  margin-left: 16px;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 2px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.buttonAddfavorite:hover {
+  font-weight: bolder;
+  opacity: 1.8;
+
+}
+
+.buttonRemovefavorite:hover {
+  font-weight: bolder;
+  opacity: 1.8;
+
+}
+
+#forecastContainter {
+  display: flex;
+  justify-content: center;
+}
+
+.forecastChild {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  color: black;
+  background-color: mintcream;
+  text-align: center;
+  font-style: italic;
+  width: 250px;
+    height: 155px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border: 4px outset cornflowerblue;
+  border-radius: 30px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#forecastContainter2 {
+  display: flex;
+  justify-content: center;
+flex-wrap: wrap;
+}
+
+.forecastChild2 {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  color: black;
+  background-color: mintcream;
+  text-align: center;
+  font-style: italic;
+  width: 140px;
+  height: 130px;
+  margin: 8px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: 4px outset cornflowerblue;
+  border-radius: 30px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  align-items: center;
+
+}
+
+
+
+
+/* Styles for screens up to 576px (e.g. phones) */
+@media only screen and (max-width: 576px) {
+  .App {
+    font-size: 12px;
+  }
+
+
+  .buttonAddfavorite {
+    width: 150px;
+    height: 50px;
+    font-size: 10px;
+  }
+
+  .buttonRemovefavorite {
+    width: 150px;
+    height: 50px;
+    font-size: 10px;
+  }
+
+  .item {
+    font-size: 14px;
+    width: 100px;
+    height: 50px;
+
+  }
+
+  input {
+    font-size: 14px;
+    width: 200px;
+  }
+
+  #buttonSearch {
+    width: 90px;
+    height: 30px;
+    font-size: 16px;
+  }
+
+  .forecastChild {
+    font-size: 12px;
+    width: 220px;
+    height: 130px;
+  }
+
+  #forecastContainter2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #h1Title {
+    font-size: 40px;
+  }
+}
